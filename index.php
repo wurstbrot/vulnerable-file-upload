@@ -10,8 +10,8 @@
 
 </body>
 </html>
-
 <?php
+error_reporting(0);
 $target_dir = "uploads/";
 mkdir("uploads");
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
